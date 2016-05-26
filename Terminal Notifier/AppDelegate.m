@@ -2,7 +2,7 @@
 #import <ScriptingBridge/ScriptingBridge.h>
 #import <objc/runtime.h>
 
-NSString * const TerminalNotifierBundleID = @"nl.superalloy.oss.terminal-notifier";
+NSString * const TerminalNotifierBundleID = @"nl.superalloy.oss.terminal-notifier.radiant";
 NSString * const NotificationCenterUIBundleID = @"com.apple.notificationcenterui";
 
 // Set OS Params
@@ -75,7 +75,7 @@ isMavericks()
 
   if (isMavericks()) {
     //10.9
-    appDefaults = @{@"sender": @"com.apple.Terminal"};
+    appDefaults = @{@"sender": TerminalNotifierBundleID};
   } else {
     //10.8
     appDefaults = @{@"": @"message"};
