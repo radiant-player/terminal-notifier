@@ -1,3 +1,7 @@
+# NOTE
+
+**You likely want to use the upstream project, [julienXX/terminal-notifier](https://github.com/julienXX/terminal-notifier).  This fork tracks master there, with the icon changed for Radiant Player.**
+
 # terminal-notifier
 
 terminal-notifier is a command-line tool to send Mac OS X User Notifications,
